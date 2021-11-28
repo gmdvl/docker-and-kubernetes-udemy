@@ -4,9 +4,7 @@ CODE_CHANGES = getGitChanges(
   'gmdvl/docker-and-kubernetes-udemy'
 );
 pipeline{
-    agent{
-        label 'master'
-    }
+    agent any
     stages{
         stage('Build'){
             when{
