@@ -1,7 +1,7 @@
 CODE_CHANGES = getGitChanges(
   'Jenkinsfile',
   'groovy',
-  'Section 6/77-shorthand/frontend/Jenkinsfile'
+  'gmdvl/docker-and-kubernetes-udemy'
 );
 pipeline{
     agent{
